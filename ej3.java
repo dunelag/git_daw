@@ -17,8 +17,11 @@ public class ej3 {
             numeros[numeros.length - 1 - i] = temp;
         }
 
-        System.out.println("Números ordenados:");
+        System.out.println("Números  pares ordenados:");
         for (int i = 0; i < numeros.length; i++) {
+
+        if (numeros[i] % 2 == 0) {
+
             System.out.println(numeros[i]);
         }
     }
