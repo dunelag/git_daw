@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Random;
 
 public class ej3 {
@@ -9,7 +10,14 @@ public class ej3 {
             numeros[i] = rand.nextInt(100) + 1;
         }
 
-        System.out.println("Números generados:");
+        Arrays.sort(numeros);
+        for (int i = 0; i < numeros.length / 2; i++) {
+            int temp = numeros[i];
+            numeros[i] = numeros[numeros.length - 1 - i];
+            numeros[numeros.length - 1 - i] = temp;
+        }
+
+        System.out.println("Números ordenados:");
         for (int i = 0; i < numeros.length; i++) {
             System.out.println(numeros[i]);
         }
