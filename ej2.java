@@ -6,6 +6,8 @@ public class ej2 {
         int[] edades = new int[5];
         int min = 0;
         int max = 100;
+        int mayores = 0;
+        int menores = 0;
 
         for (int i = 0; i < 5; i++) {
             System.out.print("Edad " + (i + 1) + ": ");
@@ -14,6 +16,10 @@ public class ej2 {
                 min = edades[i];
             if (edades[i] > max)
                 max = edades[i];
+            if (edades[i] >= 18)
+                mayores++;
+            else
+                menores++;
         }
 
         System.out.println("\nEdades introducidas:");
@@ -23,6 +29,8 @@ public class ej2 {
 
         System.out.println("Edad mínima: " + min);
         System.out.println("Edad máxima: " + max);
+        System.out.println("Mayores de edad: " + mayores);
+        System.out.println("Menores de edad: " + menores);
 
         teclado.close();
     }
