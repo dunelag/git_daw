@@ -10,6 +10,8 @@ public class ej1 {
         int positivos = 0;
         int negativos = 0;
 
+        boolean[] visitado = new boolean[5];
+
         for (int i = 0; i < 5; i++) {
             System.out.print("Número " + (i + 1) + ": ");
             numeros[i] = teclado.nextInt();
@@ -38,6 +40,21 @@ public class ej1 {
         System.out.println("Menor: " + menor);
         System.out.println("Cantidad de números positivos: " + positivos);
         System.out.println("Cantidad de números negativos: " + negativos);
+
+        System.out.println("\nFrecuencia de cada número:");
+        for (int i = 0; i < 5; i++) {
+            if (!visitado[i]) {
+                int contador = 1;
+                for (int j = i + 1; j < 5; j++) {
+                    if (numeros[j] == numeros[i]) {
+                        contador++;
+                        visitado[j] = true;
+                    }
+                }
+                System.out.println(numeros[i] + " aparece " + contador + " vez/veces");
+                visitado[i] = true;
+            }
+        }
 
         teclado.close();
     }
