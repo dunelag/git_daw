@@ -9,6 +9,7 @@ public class ej1 {
         int menor = Integer.MAX_VALUE;
         int positivos = 0;
         int negativos = 0;
+        int tamaño = 5;
 
         boolean[] visitado = new boolean[5];
 
@@ -53,6 +54,34 @@ public class ej1 {
                 }
                 System.out.println(numeros[i] + " aparece " + contador + " vez/veces");
                 visitado[i] = true;
+            }
+        }
+
+        System.out.print("\nIntroduce el número que deseas eliminar (solo se elimina una vez): ");
+        int aEliminar = teclado.nextInt();
+        boolean encontrado = false;
+
+        // Buscar y eliminar la primera ocurrencia
+        for (int i = 0; i < tamaño; i++) {
+            if (numeros[i] == aEliminar && !encontrado) {
+                // Desplazar elementos hacia la izquierda
+                for (int j = i; j < tamaño - 1; j++) {
+                    numeros[j] = numeros[j + 1];
+                }
+                tamaño--;
+                encontrado = true;
+            }
+        }
+
+        System.out.println("\nArray después de la eliminación:");
+        if (encontrado) {
+            for (int i = 0; i < tamaño; i++) {
+                System.out.println(numeros[i]);
+            }
+        } else {
+            System.out.println("El número no estaba en el array.");
+            for (int i = 0; i < tamaño; i++) {
+                System.out.println(numeros[i]);
             }
         }
 
