@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class ej2 {
@@ -35,6 +36,13 @@ public class ej2 {
 
         double media = (double) suma / edades.length;
         System.out.println("Media de edad: " + media);
+
+        Arrays.sort(edades);
+
+        System.out.println("\nEdades ordenadas (menor a mayor):");
+        for (int i = 0; i < edades.length; i++) {
+            System.out.println(edades[i]);
+        }
 
         teclado.close();
     }
