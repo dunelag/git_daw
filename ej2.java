@@ -8,6 +8,7 @@ public class ej2 {
         int max = 100;
         int mayores = 0;
         int menores = 0;
+        int suma = 0;
 
         for (int i = 0; i < 5; i++) {
             System.out.print("Edad " + (i + 1) + ": ");
@@ -31,6 +32,9 @@ public class ej2 {
         System.out.println("Edad máxima: " + max);
         System.out.println("Mayores de edad: " + mayores);
         System.out.println("Menores de edad: " + menores);
+
+        double media = (double) suma / edades.length;
+        System.out.println("Media de edad: " + media);
 
         teclado.close();
     }
