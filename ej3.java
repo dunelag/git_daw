@@ -5,6 +5,7 @@ public class ej3 {
     public static void main(String[] args) {
         Random rand = new Random();
         int[] numeros = new int[10];
+        int suma = 0;
 
         for (int i = 0; i < numeros.length; i++) {
             numeros[i] = rand.nextInt(100) + 1;
@@ -20,9 +21,13 @@ public class ej3 {
         System.out.println("Números  pares ordenados:");
         for (int i = 0; i < numeros.length; i++) {
 
-        if (numeros[i] % 2 == 0) {
+            if (numeros[i] % 2 == 0) {
 
-            System.out.println(numeros[i]);
+                System.out.println(numeros[i]);
+            }
         }
+
+        double media = (double) suma / numeros.length;
+        System.out.println("Media: " + media);
     }
 }
