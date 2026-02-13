@@ -29,5 +29,11 @@ public class ej3 {
 
         double media = (double) suma / numeros.length;
         System.out.println("Media: " + media);
+        System.out.println("Números por encima de la media:");
+        for (int i = 0; i < numeros.length; i++) {
+            if (numeros[i] > media) {
+                System.out.println(numeros[i]);
+            }
+        }
     }
 }
