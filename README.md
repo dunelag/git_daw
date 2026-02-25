@@ -1,26 +1,33 @@
-![tex alt](https://img.freepik.com/vector-gratis/vector-degradado-logotipo-colorido-pajaro_343694-1365.jpg)
-![Imagen 1][logo]
-![Imagen 2][logo]
-![Imagen 3][logo]
+# Programación - Resumen del Módulo
 
-[logo]:https://img.freepik.com/vector-gratis/vector-degradado-logotipo-colorido-pajaro_343694-1365.jpg
+## *Lo básico*
 
-En Markdawn tambien se pueden insertar [enlaces](https://www.google.com/imgres?q=poliwag&imgurl=https%3A%2F%2Fdb.pokemongohub.net%2F_next%2Fimage%3Furl%3D%252Fimages%252Fofficial%252Ffull%252F060.webp%26w%3D640%26q%3D75&imgrefurl=https%3A%2F%2Fdb.pokemongohub.net%2Fes%2Fpokemon%2F60&docid=J-dk50JsXndeGM&tbnid=LMC6zaLmq6OeSM&vet=12ahUKEwiVla_WsfWSAxXfgv0HHXNxNKEQnPAOegQIGhAB..i&w=475&h=475&hcb=2&ved=2ahUKEwiVla_WsfWSAxXfgv0HHXNxNKEQnPAOegQIGhAB)
+En este módulo hemos visto **programación** y cosas _importantes_ del desarrollo de software.
 
-[Enlace 1][enlace_poliwag]
-[Enlace 2][enlace_poliwag]
-[Enlace 3][enlace_poliwag]
+### Variables y datos
 
-[enlace_poliwag]:https://www.google.com/imgres?q=poliwag&imgurl=https%3A%2F%2Fdb.pokemongohub.net%2F_next%2Fimage%3Furl%3D%252Fimages%252Fofficial%252Ffull%252F060.webp%26w%3D640%26q%3D75&imgrefurl=https%3A%2F%2Fdb.pokemongohub.net%2Fes%2Fpokemon%2F60&docid=J-dk50JsXndeGM&tbnid=LMC6zaLmq6OeSM&vet=12ahUKEwiVla_WsfWSAxXfgv0HHXNxNKEQnPAOegQIGhAB..i&w=475&h=475&hcb=2&ved=2ahUKEwiVla_WsfWSAxXfgv0HHXNxNKEQnPAOegQIGhAB
+Las variables guardan información. Es **básico** entender esto para programar.
 
-Primer parrafo:
+> "Programar es dar instrucciones a la computadora"
 
-Segundo parrafo:
+### Lo que aprendimos
 
-Tercer parrafo:
+1. Variables
+   - Números
+   - Texto
+   - Booleanos
+2. Estructuras de control
+   - if/else
+   - bucles for
+   - while
+3. Funciones
+   - Parámetros
+   - Retorno de valores
 
+### Recursos útiles
 
-Primer parrafo  
-Segundo parrafo  
-Tercer parrafo  
+**_Visita estas páginas:_**
+- [MDN](https://developer.mozilla.org/)
+- [GitHub](https://github.com)
 
+![textoAlt](https://img.freepik.com/vector-gratis/vector-degradado-logotipo-colorido-pajaro_343694-1365.jpg)
